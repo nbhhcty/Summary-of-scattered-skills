@@ -1,0 +1,6 @@
+framework module Pods_CustomTransitionAnimations {
+  umbrella header "Pods-CustomTransitionAnimations-umbrella.h"
+
+  export *
+  module * { export * }
+}

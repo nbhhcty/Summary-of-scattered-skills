@@ -1,0 +1,18 @@
+//
+//  pch.pch
+//  CustomTransitionAnimations
+//
+//  Created by wsk on 2017/10/26.
+//  Copyright © 2017年 pptv. All rights reserved.
+//
+
+#ifndef pch_pch
+#define pch_pch
+
+#import "Masonry.h"
+#import "ReactiveCocoa.h"
+
+#define MD_WeakObj(o)      __weak typeof(o) o##Weak = o;
+#define MD_StrongObj(o)    __strong typeof(o) o = o##Weak;
+
+#endif /* pch_pch */

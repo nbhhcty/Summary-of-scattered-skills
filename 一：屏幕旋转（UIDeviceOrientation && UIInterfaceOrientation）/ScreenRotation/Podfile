@@ -1,0 +1,11 @@
+platform :ios,’8.0’
+target "ScreenRotation" do
+use_frameworks!
+#pod 'ReactiveCocoa'
+pod 'ReactiveCocoa', '2.5'
+pod 'AFNetworking'
+pod 'Masonry'
+pod 'Reveal-SDK', :configurations => ['Debug']
+end
+
+
