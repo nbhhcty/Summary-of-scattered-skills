@@ -6,21 +6,29 @@
 //  Copyright © 2017年 pptv. All rights reserved.
 //
 
-#import "exampleBlock.h"
+#import "ExampleBlock.h"
 
 typedef void (^myBlock)(void);
 
-@interface exampleBlock()
+@interface ExampleBlock()
 {
     NSString* name;
 }
 @property (nonatomic, strong) myBlock mBlock;
 @end
 
-@implementation exampleBlock
+@implementation ExampleBlock
 
 -(void)setPubName:(NSString *)pubName {
     name = pubName;
+}
+
+#pragma mark - 会循环引用的情况
+-(void)testCircularReferenceYES_1 {
+    _mBlock = ^(void) {
+        NSLog(@"name = %@", name);
+    };
+    _mBlock();
 }
 
 #pragma mark - 不会循环引用的情况
@@ -55,14 +63,6 @@ typedef void (^myBlock)(void);
         _mBlock = nil;
     };
     tempBlock();
-}
-
-#pragma mark - 会循环引用的情况
--(void)testCircularReferenceYES_1 {
-    _mBlock = ^(void) {
-        NSLog(@"name = %@", name);
-    };
-    _mBlock();
 }
 
 -(void)dealloc {

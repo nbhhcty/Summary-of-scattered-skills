@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface exampleBlock : NSObject
+@interface ExampleBlock : NSObject
 @property (nonatomic, strong) NSString* pubName;
 
 -(void)testCircularReferenceNo_1;

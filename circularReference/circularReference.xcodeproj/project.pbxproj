@@ -15,7 +15,11 @@
 		7CCA9C6D1FE3D1DE000903F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA9C6C1FE3D1DE000903F3 /* main.m */; };
 		7CCA9C771FE3D1DE000903F3 /* circularReferenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA9C761FE3D1DE000903F3 /* circularReferenceTests.m */; };
 		7CCA9C821FE3D1DE000903F3 /* circularReferenceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA9C811FE3D1DE000903F3 /* circularReferenceUITests.m */; };
-		7CCA9C911FE3D202000903F3 /* exampleBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA9C901FE3D202000903F3 /* exampleBlock.m */; };
+		7CCA9C911FE3D202000903F3 /* ExampleBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA9C901FE3D202000903F3 /* ExampleBlock.m */; };
+		7CCA9C941FE3E16E000903F3 /* ExampleNSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA9C931FE3E16E000903F3 /* ExampleNSTimer.m */; };
+		7CCA9C991FE3E39D000903F3 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA9C981FE3E39D000903F3 /* BlockTest.m */; };
+		7CCA9C9C1FE3E45A000903F3 /* NSTimerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA9C9B1FE3E45A000903F3 /* NSTimerTest.m */; };
+		7CCA9C9F1FE3EEF6000903F3 /* NSTimer+BlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA9C9E1FE3EEF6000903F3 /* NSTimer+BlockSupport.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +56,16 @@
 		7CCA9C7D1FE3D1DE000903F3 /* circularReferenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = circularReferenceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCA9C811FE3D1DE000903F3 /* circularReferenceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = circularReferenceUITests.m; sourceTree = "<group>"; };
 		7CCA9C831FE3D1DE000903F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CCA9C8F1FE3D202000903F3 /* exampleBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = exampleBlock.h; sourceTree = "<group>"; };
-		7CCA9C901FE3D202000903F3 /* exampleBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = exampleBlock.m; sourceTree = "<group>"; };
+		7CCA9C8F1FE3D202000903F3 /* ExampleBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleBlock.h; sourceTree = "<group>"; };
+		7CCA9C901FE3D202000903F3 /* ExampleBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleBlock.m; sourceTree = "<group>"; };
+		7CCA9C921FE3E16E000903F3 /* ExampleNSTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleNSTimer.h; sourceTree = "<group>"; };
+		7CCA9C931FE3E16E000903F3 /* ExampleNSTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleNSTimer.m; sourceTree = "<group>"; };
+		7CCA9C971FE3E39D000903F3 /* BlockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
+		7CCA9C981FE3E39D000903F3 /* BlockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
+		7CCA9C9A1FE3E45A000903F3 /* NSTimerTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTimerTest.h; sourceTree = "<group>"; };
+		7CCA9C9B1FE3E45A000903F3 /* NSTimerTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTimerTest.m; sourceTree = "<group>"; };
+		7CCA9C9D1FE3EEF6000903F3 /* NSTimer+BlockSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+BlockSupport.h"; sourceTree = "<group>"; };
+		7CCA9C9E1FE3EEF6000903F3 /* NSTimer+BlockSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BlockSupport.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +125,8 @@
 				7CCA9C681FE3D1DE000903F3 /* LaunchScreen.storyboard */,
 				7CCA9C6B1FE3D1DE000903F3 /* Info.plist */,
 				7CCA9C6C1FE3D1DE000903F3 /* main.m */,
-				7CCA9C8F1FE3D202000903F3 /* exampleBlock.h */,
-				7CCA9C901FE3D202000903F3 /* exampleBlock.m */,
+				7CCA9C951FE3E343000903F3 /* Block */,
+				7CCA9C961FE3E358000903F3 /* NSTimer */,
 			);
 			path = circularReference;
 			sourceTree = "<group>";
@@ -135,6 +147,30 @@
 				7CCA9C831FE3D1DE000903F3 /* Info.plist */,
 			);
 			path = circularReferenceUITests;
+			sourceTree = "<group>";
+		};
+		7CCA9C951FE3E343000903F3 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				7CCA9C8F1FE3D202000903F3 /* ExampleBlock.h */,
+				7CCA9C901FE3D202000903F3 /* ExampleBlock.m */,
+				7CCA9C971FE3E39D000903F3 /* BlockTest.h */,
+				7CCA9C981FE3E39D000903F3 /* BlockTest.m */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		7CCA9C961FE3E358000903F3 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				7CCA9C921FE3E16E000903F3 /* ExampleNSTimer.h */,
+				7CCA9C931FE3E16E000903F3 /* ExampleNSTimer.m */,
+				7CCA9C9A1FE3E45A000903F3 /* NSTimerTest.h */,
+				7CCA9C9B1FE3E45A000903F3 /* NSTimerTest.m */,
+				7CCA9C9D1FE3EEF6000903F3 /* NSTimer+BlockSupport.h */,
+				7CCA9C9E1FE3EEF6000903F3 /* NSTimer+BlockSupport.m */,
+			);
+			path = NSTimer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,8 +308,12 @@
 			files = (
 				7CCA9C621FE3D1DE000903F3 /* ViewController.m in Sources */,
 				7CCA9C6D1FE3D1DE000903F3 /* main.m in Sources */,
-				7CCA9C911FE3D202000903F3 /* exampleBlock.m in Sources */,
+				7CCA9C9C1FE3E45A000903F3 /* NSTimerTest.m in Sources */,
+				7CCA9C911FE3D202000903F3 /* ExampleBlock.m in Sources */,
+				7CCA9C991FE3E39D000903F3 /* BlockTest.m in Sources */,
 				7CCA9C5F1FE3D1DE000903F3 /* AppDelegate.m in Sources */,
+				7CCA9C9F1FE3EEF6000903F3 /* NSTimer+BlockSupport.m in Sources */,
+				7CCA9C941FE3E16E000903F3 /* ExampleNSTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
