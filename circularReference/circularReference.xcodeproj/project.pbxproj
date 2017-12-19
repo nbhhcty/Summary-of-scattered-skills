@@ -20,6 +20,7 @@
 		7CCA9C991FE3E39D000903F3 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA9C981FE3E39D000903F3 /* BlockTest.m */; };
 		7CCA9C9C1FE3E45A000903F3 /* NSTimerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA9C9B1FE3E45A000903F3 /* NSTimerTest.m */; };
 		7CCA9C9F1FE3EEF6000903F3 /* NSTimer+BlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA9C9E1FE3EEF6000903F3 /* NSTimer+BlockSupport.m */; };
+		7CEC6C691FE93399001A2C84 /* DelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEC6C681FE93399001A2C84 /* DelegateTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,9 @@
 		7CCA9C9B1FE3E45A000903F3 /* NSTimerTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTimerTest.m; sourceTree = "<group>"; };
 		7CCA9C9D1FE3EEF6000903F3 /* NSTimer+BlockSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+BlockSupport.h"; sourceTree = "<group>"; };
 		7CCA9C9E1FE3EEF6000903F3 /* NSTimer+BlockSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BlockSupport.m"; sourceTree = "<group>"; };
+		7CEC6C661FE9310E001A2C84 /* CustomProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomProtocol.h; sourceTree = "<group>"; };
+		7CEC6C671FE93399001A2C84 /* DelegateTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegateTest.h; sourceTree = "<group>"; };
+		7CEC6C681FE93399001A2C84 /* DelegateTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,7 @@
 				7CCA9C681FE3D1DE000903F3 /* LaunchScreen.storyboard */,
 				7CCA9C6B1FE3D1DE000903F3 /* Info.plist */,
 				7CCA9C6C1FE3D1DE000903F3 /* main.m */,
+				7CEC6C651FE930C0001A2C84 /* Delegate */,
 				7CCA9C951FE3E343000903F3 /* Block */,
 				7CCA9C961FE3E358000903F3 /* NSTimer */,
 			);
@@ -171,6 +176,16 @@
 				7CCA9C9E1FE3EEF6000903F3 /* NSTimer+BlockSupport.m */,
 			);
 			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		7CEC6C651FE930C0001A2C84 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7CEC6C661FE9310E001A2C84 /* CustomProtocol.h */,
+				7CEC6C671FE93399001A2C84 /* DelegateTest.h */,
+				7CEC6C681FE93399001A2C84 /* DelegateTest.m */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CEC6C691FE93399001A2C84 /* DelegateTest.m in Sources */,
 				7CCA9C621FE3D1DE000903F3 /* ViewController.m in Sources */,
 				7CCA9C6D1FE3D1DE000903F3 /* main.m in Sources */,
 				7CCA9C9C1FE3E45A000903F3 /* NSTimerTest.m in Sources */,
